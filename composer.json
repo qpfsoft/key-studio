@@ -1,0 +1,26 @@
+{
+    "name": "qpfsoft/key-studio",
+    "description": "QPF Framework for Key Studio",
+    "type": "project",
+    "keywords": ["qpf"],
+    "license": "Apache-2.0",
+    "authors": [
+        {
+            "name": "qiun",
+            "email": "qiun@163.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+    	"php": ">=7.1.0",
+    	"qpfsoft/qpf-core": "0.1.*"
+    },
+    "require-dev": {
+    	
+    },
+    "autoload": {
+    	"psr-4": {
+    		"app\\": "app"
+    	}
+    }
+}

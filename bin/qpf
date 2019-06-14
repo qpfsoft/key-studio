@@ -1,0 +1,16 @@
+#!/usr/bin/env php
+<?php
+// ╭───────────────────────────────────────────────────────────┐
+// │ QPF Framework [Key Studio]
+// │-----------------------------------------------------------│
+// │ Copyright (c) 2016-2019 quiun.com All rights reserved.
+// │-----------------------------------------------------------│
+// │ Author: qiun <qiun@163.com>
+// ╰───────────────────────────────────────────────────────────┘
+
+// [ QPF ]
+require __DIR__ . '/../vendor/qpfsoft/qpf-core/src/bootstrap.php';
+
+QPF::app()->init();
+
+(new \qpf\console\Console(QPF::$app))->bootstrap();

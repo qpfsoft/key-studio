@@ -1,0 +1,6 @@
+*
+!.gitignore
+!app.php
+!param.php
+!web.php
+!request.php
